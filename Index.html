@@ -1,0 +1,53 @@
+<!doctype html>
+<lang="pt-br">
+<html>
+ <head></head> 
+ <body> 
+  <h1>DSV calc</h1> <!--parte de titulo 1--> 
+  <div id="result">
+   <form name="all"> 
+    <input name="answer" placeholder=" 0"> 
+    <br>
+    <br>
+    <!--inicio de parte dos botões e onclick-->
+    <input value=" 1 " type="button" onclick="all.answer.value +='1'"> 
+    <input value=" 2" type="button" onclick="all.answer.value +='2'"> 
+    <input value=" 3" type="button" onclick="all.answer.value +='3'"> 
+    <br>
+    <br>
+    <div id='fazer'>
+    <input value=" 4 " type="button" onclick="all.answer.value +='4'"> 
+    <input value=" 5" type="button" onclick="all.answer.value +='5'"> 
+    <input value="6 " type="button" onclick="all.answer.value +='6'"> 
+    <br>
+    <br>
+    <input value=" 7 " type="button" onclick="all.answer.value +='7'"> 
+    <input value=" 8" type="button" onclick="all.answer.value +='8'"> 
+    <input value=" 9" type="button" onclick="all.answer.value +='9'"> 
+    <br>
+    <br>
+    <input value=" 0" type="button" onclick="all.answer.value +='0'"> 
+    <input value=" +" type="button" onclick="all.answer.value +='+'"> 
+    <input value=" -" type="button" onclick="all.answer.value +='-'"> 
+    
+    </div>
+    <br>
+    <br>
+    <input value=" × " type="button" onclick="all.answer.value +='*'"> 
+    <input value="÷" type="button" onclick="all.answer.value +='/'"> 
+    <input value=" =" type="button" onclick="all.answer.value =eval(all.answer.value)"> 
+    <br>
+    <br> 
+    <input type="button" value="clear all" onclick="all.answer.value=' '"> 
+        <!--fim da parte dos botões e onclick-->
+   </form> 
+   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+   <footer>
+    <p>Creade by DSV-HCK101</p>
+      David silva
+      <!--roda pé-->
+   </footer>
+  <script src="main.js"></script>
+  </div>
+ </body>
+</html>
