@@ -1,0 +1,35 @@
+div[id='result']{
+  color:black;
+  background-color:#737592;
+  text-align:center;
+  box-shadow:5px 5px 8px;
+  border-radius:10px;
+}
+
+
+  
+
+input[name="answer"]{
+  color:black;
+  
+  
+}
+div input{
+  color:blue;
+  left:20px;
+right:30px;
+
+}
+input[value="clear all"]{
+  color:blue;
+  
+  
+}
+h1{
+  color:#FF0000;
+  text-align:center;
+}
+footer{
+  text-align:right;
+  
+}
